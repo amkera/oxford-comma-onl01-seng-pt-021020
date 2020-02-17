@@ -1,5 +1,8 @@
 def oxford_comma(array)
-  array.join(",")
+  counter = 0 
+  new_array = []
+  while counter < array.length - 1
+    new_array.push(array[counter])
 end
 
 #array = ["fiddleheads","okra","kohlrabi"]
