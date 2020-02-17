@@ -7,3 +7,5 @@ end
 
 #array = ["fiddleheads","okra","kohlrabi"]
 #output = [fiddleheads, okra, and kohlrabi"]
+
+"fiddleheads, okra, and kohlrabi"
