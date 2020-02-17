@@ -3,9 +3,13 @@ def oxford_comma(array)
   new_array = []
   while counter < array.length - 1
     new_array.push(array[counter])
+    counter += 1
+  end
+  new_array.push("and #{array.last}")
+  new_string = new_array.join(",")
+  return new_string
 end
 
-#array = ["fiddleheads","okra","kohlrabi"]
-#output = [fiddleheads, okra, and kohlrabi"]
+oxford_comma(["fiddleheads","okra","kohlrabi"])
 
-"fiddleheads, okra, and kohlrabi"
+
